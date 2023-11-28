@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    background-color: #FBEDDF ;
+}
+
+
+/*css do carrossel*/
+.wrapper{
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar
+{
+    display: none;
+}
+
+.wrapper{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.arrow-left{
+    position: absolute;
+    font-size: 50px;
+    align-self: center;
+    color: #D43C42;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    opacity: 0.3;
+}
+
+.arrow-right{
+    position: absolute;
+    font-size: 50px;
+    right: 0;
+    left: auto;
+    text-align: right;
+    align-self: center;
+    color: #D43C42;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    opacity: 0.3;
+    justify-self: flex-end;
+}
+
+.arrow-left:hover, .arrow-right:hover{
+    opacity: 1.0;
+}
+
+.imagem{
+    padding: 5%;
+    background-color: rgb(252, 237, 103);
+    border-radius: 20px;
+}
+
+.imagem p, .imagem h2{
+    background-color: rgb(252, 237, 103);
+    color: #D43C42;
+}
+
+
+/*css do Input*/
+.caixa-de-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.Input{
+    padding: 2%;
+    color: #D43C42;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+textarea::placeholder{
+    color: #F6CDB6;
+}
+
+textarea{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+    box-shadow: 0 5px 2px #F6CDB6;
+    width: 300px;
+    height: 60px;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-left: 1%;
+}
+
+.Enviar{
+    background-color: #D43C42;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 2px #F6CDB6;
+}
+
+/*css do gif*/
+.gif{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: auto;
+    padding: 100px 100px 0 100px;
+}
+
+.gif img{
+    background: transparent;
+}
+
+.mensagem{
+    color: #D43C42;
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 120%;
+}
+
+
+
+
