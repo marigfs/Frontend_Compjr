@@ -1,0 +1,90 @@
+/*css do Input*/
+.caixa-de-texto textarea{
+    overflow-y: auto;
+}
+
+.caixa-de-texto textarea::-webkit-scrollbar
+{
+    display: none;
+}
+
+.caixa-de-texto textarea{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+
+section h1{
+    color:#D43C42;
+}
+
+
+#commentPost {
+    color: #D43C42;
+    border-radius: 16px;
+    width: 300px;
+}
+
+
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    color: #D43C42;
+    font-size: 120%;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.form-control{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+    box-shadow: 0 5px 2px #F6CDB6;
+    width: 300px;
+    padding: 1%;
+}
+
+.form-control::placeholder{
+    color: #D43C42;
+    font-weight: bold;
+}
+
+textarea{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+    box-shadow: 0 5px 2px #F6CDB6;
+    width: 300px;
+    height: 60px;
+    padding: 1% 1% 10% 1%;
+}
+
+textarea::placeholder{
+    color: #D43C42;
+    font-weight: bold;
+}
+
+
+.Enviar{
+    background-color: #D43C42;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 16px;
+    padding: 2px;
+    box-shadow: 0 5px 2px #F6CDB6;
+}
+
+#comentario{
+    background: white;
+}

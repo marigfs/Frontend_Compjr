@@ -1,0 +1,44 @@
+/*css do footer*/
+
+.footer{
+    background-color: #D43C42;
+    color: white;
+    box-shadow: 0 -5px 2px #F6CDB6;
+}
+
+a{
+    background-color: #D43C42;
+}
+
+.texto, .texto1, .logos, .lorem, .cogumelo{
+    background-color: #D43C42;
+}
+
+.texto{
+    font-size: 150%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.lorem{
+    padding-left: 1%;
+    padding-right: 1%;
+    opacity: 0.6;
+    font-size: 90%;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    gap: 20px;
+}
+
+.cogumelo{
+    display: flex;
+    justify-content: center;
+}
+
+.cogumelo img{
+    background-color: #D43C42;
+}
