@@ -26,9 +26,7 @@ JavaScript: Adiciona interatividade e dinamismo aos componentes, melhorando a ex
 
 # Como Usar
 
-1. Clone o repositório para o seu ambiente local.
-
-  git clone https://github.com/seu-usuario/nome-do-repositorio.git
+1. Clone o repositório para o seu ambiente local usando o comando "git clone https://github.com/seu-usuario/nome-do-repositorio.git".
 
 2. Abra o arquivo index.html em seu navegador.
 
