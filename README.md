@@ -28,7 +28,7 @@ JavaScript: Adiciona interatividade e dinamismo aos componentes, melhorando a ex
 
 1. Clone o repositório para o seu ambiente local.
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+  git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 2. Abra o arquivo index.html em seu navegador.
 
