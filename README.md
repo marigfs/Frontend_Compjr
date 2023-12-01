@@ -1,8 +1,8 @@
-# Frontend_Compjr
+# Frontend_Compjr 🍄
 Desafio Frontend desenvolvido por Mariana Sales.
 
 # Descrição 
-Este projeto é um frontend desenvolvido utilizando HTML, CSS e JavaScript. Ele inclui os componentes: navbar, carrossel de cards, footer e uma seção dinâmica de comentários.
+Este projeto é um frontend de um site informarivo sobre cogumelos. Ele foi desenvolvido utilizando apenas HTML, CSS e JavaScript. Ele inclui os componentes: navbar, carrossel de cards, footer e uma seção dinâmica de comentários.
 
 # Componentes
 1. Navbar
